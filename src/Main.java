@@ -4,8 +4,8 @@ class Program {
     void main () {
         String choice;
         boolean menu = true;
-        boolean calculator = false;
-        Scanner in = new Scanner (System.in).useLocale(java.util.Locale.US);;
+        boolean calculator;
+        Scanner in = new Scanner (System.in).useLocale(java.util.Locale.US);
         double firstNumber, secondNumber, result;
 //  Start code
 while ( menu ) {
@@ -43,7 +43,7 @@ while ( menu ) {
                                 while (!in.hasNextDouble()) {
                                     String wrongInput = in.nextLine();
                                     if (!wrongInput.isEmpty()) {
-                                        System.out.print("Error! '" + wrongInput + "' - don't number. Enter again: ");
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
                                     }
                                 }
                                 firstNumber = in.nextDouble ();
@@ -52,7 +52,7 @@ while ( menu ) {
                                 while (!in.hasNextDouble()) {
                                     String wrongInput = in.nextLine ();
                                     if (!wrongInput.isEmpty()) {
-                                        System.out.print("Error! '" + wrongInput + "' - don't number. Enter again: ");
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
                                     }
                                 }
                                 secondNumber = in.nextDouble ();
@@ -65,7 +65,7 @@ while ( menu ) {
                                 while (!in.hasNextDouble()) {
                                     String wrongInput = in.nextLine();
                                     if (!wrongInput.isEmpty()) {
-                                        System.out.print("Error! '" + wrongInput + "' - don't number. Enter again: ");
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
                                     }
                                 }
                                 firstNumber = in.nextDouble ();
@@ -74,7 +74,7 @@ while ( menu ) {
                                 while (!in.hasNextDouble()) {
                                     String wrongInput = in.nextLine();
                                     if (!wrongInput.isEmpty()) {
-                                        System.out.print("Error! '" + wrongInput + "' - don't number. Enter again: ");
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
                                     }
                                 }
                                 secondNumber = in.nextDouble ();
@@ -87,7 +87,7 @@ while ( menu ) {
                                 while (!in.hasNextDouble()) {
                                     String wrongInput = in.nextLine();
                                     if (!wrongInput.isEmpty()) {
-                                        System.out.print("Error! '" + wrongInput + "' - don't number. Enter again: ");
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
                                     }
                                 }
                                 firstNumber = in.nextDouble ();
@@ -96,7 +96,7 @@ while ( menu ) {
                                 while (!in.hasNextDouble()) {
                                     String wrongInput = in.nextLine();
                                     if (!wrongInput.isEmpty()) {
-                                        System.out.print("Error! '" + wrongInput + "' - don't number. Enter again: ");
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
                                     }
                                 }
                                 secondNumber = in.nextDouble ();
@@ -109,7 +109,7 @@ while ( menu ) {
                                 while (!in.hasNextDouble()) {
                                     String wrongInput = in.nextLine();
                                     if (!wrongInput.isEmpty()) {
-                                        System.out.print("Error! '" + wrongInput + "' - don't number. Enter again: ");
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
                                     }
                                 }
                                 firstNumber = in.nextDouble ();
@@ -118,7 +118,7 @@ while ( menu ) {
                                 while (!in.hasNextDouble()) {
                                     String wrongInput = in.nextLine();
                                     if (!wrongInput.isEmpty()) {
-                                        System.out.print("Error! '" + wrongInput + "' - don't number. Enter again: ");
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
                                     }
                                 }
                                 secondNumber = in.nextDouble ();
