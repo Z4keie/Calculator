@@ -6,6 +6,7 @@ Features:
 + Subtraction;
 + Division;
 + Multiplication;
++ Remainder of division;
 + Interactive start menu;
 + Double number support;
 + Input using Scanner.hasNextDouble();
