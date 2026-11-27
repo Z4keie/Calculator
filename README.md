@@ -6,22 +6,16 @@ Features:
 + Subtraction;
 + Division;
 + Multiplication;
-+ Remainder of division;
-+ Interactive start menu;
-+ Double number support;
-+ Input using Scanner.hasNextDouble();
-+ Ability to return to the main menu;
-+ Exit option;
++ Remainder Of Division;
 
 Technologies
 -
-+ Java 27, Scanner
++ Java 27
 
 Input format
 -
 Calculator uses the US number format
-Use a dot (.) as the double separator
-Example: 31.15
+Use a dot (.) as the double separator (Example: 31.15)
 
 About
 -
