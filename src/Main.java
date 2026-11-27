@@ -29,6 +29,7 @@ while ( menu ) {
                                 2. Subtraction
                                 3. Division
                                 4. Multiplication
+                                5. Remainder Of Division
                                 
                                 0. Exit
                                 """);
@@ -124,6 +125,28 @@ while ( menu ) {
                                 secondNumber = in.nextDouble ();
 
                                 result = firstNumber * secondNumber;
+                                System.out.println ("Answer: " + result);
+                                break;
+                            case "5":
+                                System.out.println ("Enter a number (1): ");
+                                while (!in.hasNextDouble()) {
+                                    String wrongInput = in.nextLine();
+                                    if (!wrongInput.isEmpty()) {
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
+                                    }
+                                }
+                                firstNumber = in.nextDouble ();
+
+                                System.out.println ("Enter a number (2): ");
+                                while (!in.hasNextDouble()) {
+                                    String wrongInput = in.nextLine();
+                                    if (!wrongInput.isEmpty()) {
+                                        System.out.print("Error! '" + wrongInput + "' - is not a number. Enter again: ");
+                                    }
+                                }
+                                secondNumber = in.nextDouble ();
+
+                                result = firstNumber % secondNumber;
                                 System.out.println ("Answer: " + result);
                                 break;
                             default:
