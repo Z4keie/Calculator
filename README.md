@@ -14,7 +14,7 @@ Features:
 
 Technologies
 -
-+ Java 25, Scanner
++ Java 27, Scanner
 
 Input format
 -
